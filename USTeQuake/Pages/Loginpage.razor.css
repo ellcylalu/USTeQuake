@@ -54,6 +54,9 @@
 .form-check-label{
     font-size:17px;
 }
+a{
+    font-size:14px;
+}
 
 @media (min-width: 576px){} 
 
