@@ -12,7 +12,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\LOGO.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Data\Images\" />
+    <Folder Include="wwwroot\img\favicon\" />
   </ItemGroup>
 
 </Project>
