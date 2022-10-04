@@ -1,0 +1,71 @@
+﻿@page "/viewreport"
+
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+    -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"/>
+
+    <!--FAVICON-->
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#a8a00a">
+    <link rel="shortcut icon" href="/img/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#5991dd">
+    <meta name="msapplication-config" content="/img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#5991dd">
+    <!--FAVICON-->
+   </Head>
+  <body>
+      <h2>Reports from users</h2>
+
+    <!--chart start-->
+    <br>
+    <h5>Percentage of thomasians safely transported outside their respective buildings</h5>
+    <br>
+    <div class="chart">
+      <ul class="numbers">
+        <li><span>100%</span></li>
+        <li><span>50%</span></li>
+        <li><span>0%</span></li>
+      </ul>
+      <ul class="bars">
+        <li><div class="bar" data-percentage="50"></div><span>September</span></li>
+        <li><div class="bar" data-percentage="30"></div><span>October</span></li>
+        <li><div class="bar" data-percentage="60"></div><span>November </span></li>
+        <li><div class="bar" data-percentage="100"></div><span>December</span></li>
+        <li><div class="bar" data-percentage="80"></div><span>January</span></li>
+      </ul>
+    </div>
+    <!--chart end-->
+    <!--
+    <script type="text/javascript">
+    $(function(){
+      $('.bars li .bar').each(function(key, bar){
+        var percentage = $(this).data('percentage');
+        $(this).animate({
+          'height' : percentage + '%'
+        },1000);
+      });
+    });
+    </script>
+    -->      
+    <br>
+    <br>
+    <a href="dashboardfinal" class="btn btn-warning" type="button">
+            Go back to dashboard
+        </a>
+
+  </body>
+</html>
+      
+@code {
+
+}

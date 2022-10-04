@@ -12,6 +12,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Pages\viewreport.razor.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Pages\Viewreport.razor.css" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="wwwroot\LOGO.png" />
   </ItemGroup>
 
