@@ -1,0 +1,148 @@
+﻿body {
+    font-family: 'Century Gothic',sans-serif;
+    background-color: #F2D388;
+    font-size: 20px;
+    margin: 8%;
+    margin-top: 15%;
+}
+
+.content {
+    margin: 8%;
+    margin-top: 15%;
+    background-color: floralwhite;
+    padding: 5rem 1rem 5rem 1rem;
+    box-shadow: 0 0 10px 10px rgba(0,0,0, .05);
+}
+
+input {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+.search {
+    margin-left: 80px;
+    margin-bottom: 45px;
+    overflow: auto;
+    border-radius: 5px;
+}
+
+    .search input[type="text"] {
+        font-family: ovo;
+        font-size: 18px;
+        border: 0px;
+        width: 80%;
+        padding: 10px 10px;
+    }
+
+
+    .search input[type="submit"] {
+        border-radius: 0 5px 5px 0;
+        position: relative;
+        left: -90px;
+        font-family: ovo;
+        font-size: 18px;
+        border: 0px;
+        background: none;
+        background-color: #DF7D60;
+        color: #fff;
+        float: right;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+
+        .search input[type="submit"]:hover {
+            background: #9DCAAF;
+        }
+
+@media only screen and (max-width : 600px) {
+
+    .search {
+        width: 99%;
+        margin: 0 auto;
+        margin-bottom: 45px;
+        margin-left: 50px;
+    }
+}
+
+.table-container h2 {
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 1px solid #DF7D60;
+    padding-bottom: 8px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #2192FF;
+    color: black;
+}
+
+th, td {
+    padding: .8rem;
+    font-size: 1.4rem;
+}
+
+tbody {
+    background-color: #eee;
+    color: lightblue;
+}
+
+@media screen and (max-width: 600px) {
+    th {
+        display: none;
+    }
+
+    td {
+        display: block;
+    }
+
+        td:first-child {
+            background-color: #DF7D60;
+            color: #fff;
+            text-align: center;
+        }
+
+        td:nth-child(2)::before {
+            content: "Product Name: "
+        }
+
+        td:nth-child(3)::before {
+            content: "Category: "
+        }
+
+        td:nth-child(4)::before {
+            content: "Quantity: "
+        }
+
+        td:nth-child(5)::before {
+            content: "Price: "
+        }
+
+    td {
+        text-align: right;
+    }
+
+        td:before {
+            float: left;
+            margin-right: 3rem;
+            font-weight: bold;
+        }
+}
+
+.btn-warning {
+    background-color: #FFCB42;
+    border-color: black;
+    color: black;
+}
+
+    .btn-warning:hover {
+        background-color: #00ac96;
+        color: #fff;
+    }

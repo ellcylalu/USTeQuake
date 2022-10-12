@@ -2,8 +2,8 @@
     font-family: 'Century Gothic',sans-serif;
     background-color: #F2D388;
     font-size: 20px;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
 }
 
 .content {
@@ -71,6 +71,12 @@ a {
     height:100%;
 }
 
+.col {
+    text-align: justify;
+    width: 40%;
+    height: 40%;
+    margin-left:125px;
+}
 
 @media (min-width: 576px) {
 }
