@@ -74,3 +74,10 @@ a{
 @media (min-width: 1200px){}
 
 @media (min-width: 1400px){}
+
+.earthquake{
+    position: absolute;
+    right: 0;                                                                     
+    bottom: 0;
+    z-index: -1;
+}

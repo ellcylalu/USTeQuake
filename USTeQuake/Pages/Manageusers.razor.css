@@ -143,3 +143,10 @@ tbody {
         background-color: #00ac96;
         color: #fff;
     }
+
+.earthquake {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}

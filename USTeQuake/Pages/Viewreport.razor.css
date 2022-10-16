@@ -48,7 +48,7 @@
     background: floralwhite;
     margin: 0;
     padding: 0;
-    a display: inline-block;
+    a: display: inline-block;
     width: 500px;
     height: 300px;
     box-shadow: 0 0 10px 0 #555;
@@ -94,3 +94,10 @@
             position: relative;
             bottom: 20px;
         }
+
+.earthquake {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}

@@ -2,6 +2,8 @@
     font-family: 'Century Gothic',sans-serif;
     background-color: #F2D388;
     font-size: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 .content {
@@ -35,7 +37,6 @@
 }
 
 .LOGObar {
-    margin-top: 20%;
 }
 
 .form-control:focus {
@@ -57,13 +58,16 @@
         color: #fff;
     }
 
-
 .form-check-label {
     font-size: 17px;
 }
 
 a {
     font-size: 14px;
+}
+
+.backgroundimg {
+    background-size: cover;
 }
 
 
@@ -80,11 +84,4 @@ a {
 }
 
 @media (min-width: 1400px) {
-}
-.earthquake {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    background-size:contain
 }
