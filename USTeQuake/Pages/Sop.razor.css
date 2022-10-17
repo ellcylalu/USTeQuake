@@ -73,9 +73,18 @@ a {
 
 .col {
     text-align: justify;
-    width: 40%;
-    height: 40%;
-    margin-left:125px;
+    width: 25%;
+    height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.buttonimg:hover {
+    background-color: #4aa0de;
+    color: #fff;
+}
+.btn-secondary {
+    background-color: #4aa0de;
 }
 
 @media (min-width: 576px) {

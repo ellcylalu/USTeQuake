@@ -5,12 +5,15 @@
     margin: 0;
     padding: 0;
 }
-.content{
-    margin:8%;
-    margin-top:15%;
-    background-color:floralwhite;
+.content {
+    margin: 8%;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: floralwhite;
     padding: 5rem 1rem 5rem 1rem;
     box-shadow: 0 0 10px 10px rgba(0,0,0, .05);
+    opacity: 96%;
 }
 .sign-text{
     font-style:normal;
