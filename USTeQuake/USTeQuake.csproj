@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\LOGO.png" />
+    <None Include="wwwroot\LOGOold.png" />
   </ItemGroup>
 
   <ItemGroup>
